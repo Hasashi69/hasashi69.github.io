@@ -1,0 +1,173 @@
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+* {box-sizing: border-box;}
+
+a:link {
+  color: #13FDFA; 
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: #C866F2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #591623;
+}
+
+/* selected link */
+a:active {
+  color: #15FFD8;
+}
+
+  nav {
+    height: 47px;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    display:flex;
+ 
+  }
+ 
+  nav ul li {
+    margin:auto;
+    padding-right:20px;
+    padding-left:20px;
+    text-align:center; 
+    font-size:40px; 
+    font-style:italic;
+ 
+  }
+ 
+  nav a {
+    display: block;
+    text-decoration: none;
+    font-family:'BigNoodleTitling', arial, helvetica, sans-serif;
+    font-weight:bold;
+    font-size:3rem;
+    color: #91BBF2;
+    padding:0px, 20px;
+    line-height: 45px;
+    
+  }
+
+ nav a:hover {
+   color:#591623;
+ }
+
+#text {
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center; 
+  font-size:40px; 
+  font-style:italic;
+  }
+  
+  #background {
+    border: solid 1px red;
+    margin-left:auto;
+    margin-right:auto;
+    border:collapse;
+    
+    }
+    
+    iframe {
+    pointer-events:none;
+    margin-top: -500px;
+    width:100%;
+  }
+
+h1 {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  font-family:'BigNoodleTitling', arial, helvetica, sans-serif;
+  }
+
+body{
+  background-image: url('Desktop_Outro_Sky.jpg'); 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size:cover; 
+  font-family: 'BigNoodleTitling', sans-serif;
+overflow-x:hidden;}
+
+.holder{
+  width:auto; 
+  height:auto; 
+  margin-top:0px; 
+  padding-top: 0px; 
+  border-left:solid 10px #363636; 
+  border-right:10px solid #363636; 
+  background-image: url("Gray Poly.jpg"); 
+  background-size:cover;}
+
+.profile{
+    height:500px;
+    width:102%;
+    margin:auto;
+    background: url("Hasashi.png") left no-repeat, url("dragon_vector.jpg") no-repeat;
+    background-attachment: scroll, scroll;
+    background-size:contain, cover;  
+    padding-bottom:0px; 
+    background-position:left bottom, bottom;
+    transform: translate(-1%, 0%);
+    border-top:15px solid #13FDFA;
+    border-bottom:15px solid #13FDFA;
+}
+
+  #profiletext {
+    background: rgba(0,0,0,0.5);
+    padding:20px;
+    font-family:'BigNoodleTitling', arial, helvetica, sans-serif;
+    color:#91BBF2;
+    text-align: center;
+    font-size: 4rem;
+    
+    }
+
+  .mtext{
+    color:white; 
+    position:absolute;
+    font-size:50px;
+    width:100%;
+    text-align: center;
+    border: solid 1px yellow; 
+    }
+
+.divider {
+  width:100%;
+}
+
+.role{
+  padding-left:0px;
+  padding-right:100px;
+  width:200px; 
+  margin:0px; 
+  border-collapse: collapse;}
+
+.rank{
+  padding-left:100px;
+  padding-right:100px;
+  width:200px; 
+  margin:0px; 
+  border-collapse: collapse;}
+
+.padding{
+  padding-left:0px;
+  padding-right:100px;
+  font-size:200%;}
+
+      @font-face {
+        font-family: 'BigNoodleTitling';
+        src: url(big_noodle_titling.ttf);
+    }
+
+    @import url('https://fonts.cdnfonts.com/css/bignoodletitling');
