@@ -165,9 +165,9 @@ overflow-x:hidden;}
   padding-right:100px;
   font-size:200%;}
 
-      @font-face {
-        font-family: 'BigNoodleTitling';
-        src: url(big_noodle_titling.ttf);
-    }
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url(big_noodle_titling.ttf);
+  }
 
-    @import url('https://fonts.cdnfonts.com/css/bignoodletitling');
+@import url('https://fonts.cdnfonts.com/css/bignoodletitling');

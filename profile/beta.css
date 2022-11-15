@@ -140,3 +140,12 @@ a:active {
  nav a:hover {
    color:#591623;
  }
+
+ /* Font attributes and file reader */
+
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url(big_noodle_titling.ttf);
+}
+
+@import url('https://fonts.cdnfonts.com/css/bignoodletitling');
